@@ -17,3 +17,5 @@ with driver.session(database="neo4j") as session:
     print(record['destination'])
 
 driver.close()
+
+print("all done")
